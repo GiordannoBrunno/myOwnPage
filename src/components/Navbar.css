@@ -1,7 +1,32 @@
-.logo {
-  position: fixed;
-  top: 30px;
-  left: 50px;
-  width: 100px;
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Quattrocento+Sans:ital@0;1&display=swap");
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Quattrocento Sans', sans-serif; */
+
+.navbar-container {
   z-index: 2;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 95px;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 60px;
+  width: 70px;
+  z-index: 3;
+}
+
+.contact-link {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  position: absolute;
+  right: 60px;
+  top: 40px;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 400;
+  top: 30px;
 }
