@@ -3,8 +3,5 @@
   top: 0;
   position: absolute;
   min-width: 100%;
-  min-height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-image: url("https://images.pexels.com/photos/3733441/pexels-photo-3733441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  min-height: 98vh;
 }
