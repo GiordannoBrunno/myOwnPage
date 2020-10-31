@@ -1,12 +1,12 @@
 import './App.css';
+import HomeSection from './components/HomeSection';
 import Navbar from './components/Navbar';
-import PageSlider from './components/PageSlider';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <PageSlider />
+      <HomeSection />
     </div>
   );
 }
